@@ -7,13 +7,14 @@ body {
 a {
     text-decoration: none;
     color: #E5E7EB;
+    font-size: 18px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 12px 64px;
+    padding: 12px 192px;
 }
 
 .logo {
@@ -25,6 +26,48 @@ a {
 .header-links {
     display: flex;
     align-items: center;
-    font-size: 18px;
     gap: 12px;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 128px 192px;
+    gap: 4px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.container>p {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.container>button {
+    padding: 8px 40px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
+img {
+    height: auto;
+    width: 40%;
 }
