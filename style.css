@@ -166,3 +166,13 @@ a {
     border-color: #F9FAF8;
     border-style: solid;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 36px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 14px;
+}
