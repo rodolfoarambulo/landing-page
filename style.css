@@ -26,7 +26,7 @@ a {
 .header-links {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 20px;
 }
 
 .first {
@@ -68,7 +68,46 @@ a {
     border-color: #3882F6;
 }
 
-img {
+.first>img {
     height: auto;
     width: 50%;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 180px;
+    padding-bottom: 80px;
+    gap: 40px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+}
+
+.card>img {
+    height: auto;
+    width: 75%;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.card>.text {
+    color: #1F2937;
 }
