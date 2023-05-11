@@ -66,6 +66,7 @@ a {
     font-size: 18px;
     border-radius: 10px;
     border-color: #3882F6;
+    border-style: solid;
 }
 
 .first>img {
@@ -130,4 +131,38 @@ a {
 .quote-source {
     font-weight: bold;
     align-self: flex-end;
+}
+
+.fourth {
+    padding: 128px 256px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 72px 128px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.action-text>.text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action-text>.subtext {
+    font-size: 16px;
+}
+
+.action>button {
+    padding: 8px 32px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+    border-style: solid;
 }
