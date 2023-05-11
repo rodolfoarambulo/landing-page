@@ -111,3 +111,23 @@ a {
 .card>.text {
     color: #1F2937;
 }
+
+.third {
+    display: flex;
+    flex-direction: column;
+    padding: 128px 256px;
+    background-color: #E5E7EB;
+    gap: 12px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-source {
+    font-weight: bold;
+    align-self: flex-end;
+}
