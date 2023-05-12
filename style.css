@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
@@ -125,7 +125,7 @@ a {
 .quote {
     color: #1F2937;
     font-size: 36px;
-    font-weight: 300;
+    font-weight: 200;
     font-style: italic;
 }
 
